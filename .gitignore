@@ -1,55 +1,23 @@
-# Prerequisites
-*.d
+# ESP-IDF build artifacts
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults.old
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# ESP-IDF component manager (cache/downloaded packages)
+managed_components/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Language servers, linters, and compilers
+.cache/
+compile_commands.json
 
-# Precompiled Headers
-*.gch
-*.pch
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Operating System metadata
+.DS_Store
+Thumbs.db
